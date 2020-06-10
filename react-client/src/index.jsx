@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Container, Navbar, Jumbotron, Button, Card, Accordion, Badge } from 'react-bootstrap';
-// import List from './components/List.jsx';
+import { Container, Navbar, Row, Col, Card, Accordion, Badge, Button } from 'react-bootstrap';
+import MissionStatement from './components/MissionStatement.jsx';
+import Quiz from './components/Quiz.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -20,54 +21,20 @@ class App extends React.Component {
       <div>
         <Navbar bg="dark" variant="dark">
           <Navbar.Brand>
-            the movement
+            momentum seekers
           </Navbar.Brand>
         </Navbar>
         <Container>
-          <Jumbotron style={{marginTop: "20px"}} >
-            <h1>Mission</h1>
-            <p>
-              This is where the mission statement will go once C finishes it and we get move input.
-            </p>
-            <p>
-              <Button variant="primary">Learn more</Button>
-            </p>
-          </Jumbotron>
-          <h1>
-            What can I do? <h4><Badge variant="danger">Updated June 4!</Badge></h4>
-          </h1>
-          <Accordion defaultActiveKey="0">
-            <Card>
-              <Card.Header>
-                <Accordion.Toggle as={Button} variant="link" eventKey="0">
-                  Calling / Emailing Representatives
-                </Accordion.Toggle>
-              </Card.Header>
-              <Accordion.Collapse eventKey="0">
-                <Card.Body>where stuff goes </Card.Body>
-              </Accordion.Collapse>
-            </Card>
-            <Card>
-              <Card.Header>
-                <Accordion.Toggle as={Button} variant="link" eventKey="1">
-                  Donations
-                </Accordion.Toggle>
-              </Card.Header>
-              <Accordion.Collapse eventKey="1">
-                <Card.Body>where stuff goes</Card.Body>
-              </Accordion.Collapse>
-            </Card>
-            <Card>
-              <Card.Header>
-                <Accordion.Toggle as={Button} variant="link" eventKey="2">
-                  Petitions
-                </Accordion.Toggle>
-              </Card.Header>
-              <Accordion.Collapse eventKey="2">
-                <Card.Body>where stuff goes</Card.Body>
-              </Accordion.Collapse>
-            </Card>
-          </Accordion>
+        <Row>
+          <Col>
+            <MissionStatement />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Quiz />
+          </Col>
+        </Row>
         </Container>
       </div>
     )
