@@ -16,8 +16,8 @@ class Quiz extends React.Component {
   render () {
     return (
         <div>
-            <Button block size="lg" style={{height: "20vh"}} variant="danger" >Take Action</Button>
-            <Button block size="lg" style={{height: "20vh", marginTop: "30px"}} variant="outline-primary">Find Information</Button>
+            <Button block size="lg" style={{height: "20vh", fontFamily: 'Coustard, serif'}} variant="warning" ><h1>Take Action</h1></Button>
+            <Button block size="lg" style={{height: "20vh", fontFamily: 'Coustard, serif', marginTop: "30px"}} variant="outline-light"><h1>Learn More</h1></Button>
         </div>
     )
   }

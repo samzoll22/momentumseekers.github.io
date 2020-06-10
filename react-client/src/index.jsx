@@ -20,7 +20,7 @@ class App extends React.Component {
     return (
       <div>
         <Navbar bg="dark" variant="dark">
-          <Navbar.Brand>
+          <Navbar.Brand style={{fontFamily: 'Permanent Marker, cursive', fontSize: "2em"}}>
             momentum seekers
           </Navbar.Brand>
         </Navbar>
