@@ -53,10 +53,10 @@ class Quiz extends React.Component {
                                 </Row>
                                 <Row style={{marginTop: "30px"}}>
                                     <Col>
-                                        <Button value="registerToVote" onClick={this.handleStateChange} block size="lg" style={{height: "20vh", fontFamily: 'Coustard, serif'} } variant="warning" >Register To Vote ✍🏿</Button>
+                                        <Button value="registerToVote" onClick={this.handleStateChange} block size="lg" style={{height: "20vh", fontFamily: 'Coustard, serif'} } variant="outline-light" >Register To Vote ✍🏿</Button>
                                     </Col>
                                     <Col>
-                                        <Button value="volunteer" onClick={this.handleStateChange} block size="lg" style={{height: "20vh", fontFamily: 'Coustard, serif'}} variant="outline-light">Volunteer 🙌</Button>
+                                        <Button value="volunteer" onClick={this.handleStateChange} block size="lg" style={{height: "20vh", fontFamily: 'Coustard, serif'}} variant="warning">Volunteer 🙌🏿</Button>
                                     </Col>
                                 </Row>
                                 <Row style={{marginTop: "30px"}}>
@@ -90,10 +90,10 @@ class Quiz extends React.Component {
                                 </Row>
                                 <Row style={{marginTop: "30px"}}>
                                     <Col>
-                                        <Button value="books" onClick={this.handleStateChange} block size="lg" style={{height: "20vh", fontFamily: 'Coustard, serif'}} variant="warning" >Books📚</Button>
+                                        <Button value="books" onClick={this.handleStateChange} block size="lg" style={{height: "20vh", fontFamily: 'Coustard, serif'}} variant="outline-light" >Books📚</Button>
                                     </Col>
                                     <Col>
-                                        <Button value="movies" onClick={this.handleStateChange} block size="lg" style={{height: "20vh", fontFamily: 'Coustard, serif'}} variant="outline-light">Movies 🎥</Button>
+                                        <Button value="movies" onClick={this.handleStateChange} block size="lg" style={{height: "20vh", fontFamily: 'Coustard, serif'}} variant="warning">Movies 🎥</Button>
                                     </Col>
                                 </Row>
                                 <Row style={{marginTop: "30px"}}>
