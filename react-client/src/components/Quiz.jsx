@@ -39,8 +39,8 @@ class Quiz extends React.Component {
                         </Row>
                         <Row>
                             <Col>
-                                <Button value="takeAction" onClick={this.handleStateChange} block size="lg" style={{height: "20vh", fontFamily: 'Coustard, serif'}} variant="warning" ><h1>Take Action ✊🏿</h1></Button>
-                                <Button value="learnMore" onClick={this.handleStateChange} block size="lg" style={{height: "20vh", fontFamily: 'Coustard, serif', marginTop: "30px"}} variant="outline-light"><h1>Learn More 📚</h1></Button>
+                                <Button value="takeAction" onClick={this.handleStateChange} block size="lg" style={{height: "20vh", fontFamily: 'Coustard, serif', fontSize: "2.5rem"}} variant="warning" >Take Action ✊🏿</Button>
+                                <Button value="learnMore" onClick={this.handleStateChange} block size="lg" style={{height: "20vh", fontFamily: 'Coustard, serif', marginTop: "30px", fontSize: "2.5rem"}} variant="outline-light">Learn More 📚</Button>
                             </Col>
                         </Row>
                     </Container>
