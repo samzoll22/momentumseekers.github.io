@@ -124,7 +124,7 @@ class Quiz extends React.Component {
     return (
           <div>
               {
-                  this.state.currentPage && quizComponent()
+                  this.state.currentPage ? quizComponent() : homePage
               }
           </div>
     )
