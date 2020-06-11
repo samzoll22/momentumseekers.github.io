@@ -69,7 +69,7 @@ class Quiz extends React.Component {
                                 </Row>
                                 <Row style={{marginTop: "30px"}}>
                                     <Col>
-                                        <Button value="homePage" onClick={this.handleStateChange} block style={{height: "5vh", fontFamily: 'Coustard, serif'}} variant="warning" >Home</Button>
+                                        <Button value="homePage" onClick={this.handleStateChange} block style={{height: "5vh", fontFamily: 'Coustard, serif'}} variant="outline-light" >Home 🏡</Button>
                                     </Col>
                                 </Row>
                             </Container>
@@ -82,31 +82,31 @@ class Quiz extends React.Component {
                                 </Row>
                                 <Row style={{marginTop: "30px"}}>
                                     <Col>
-                                        <Button value="language" onClick={this.handleStateChange} block size="lg" style={{height: "20vh", fontFamily: 'Coustard, serif'} } variant="warning" >Racial Insensitive Language 🤬</Button>
+                                        <Button value="language" onClick={this.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'} } variant="warning" >Racial Insensitive Language 🤬</Button>
                                     </Col>
                                     <Col>
-                                        <Button value="classes" onClick={this.handleStateChange} block size="lg" style={{height: "20vh", fontFamily: 'Coustard, serif'}} variant="outline-light">Classes 🧑🏿‍🏫</Button>
-                                    </Col>
-                                </Row>
-                                <Row style={{marginTop: "30px"}}>
-                                    <Col>
-                                        <Button value="books" onClick={this.handleStateChange} block size="lg" style={{height: "20vh", fontFamily: 'Coustard, serif'}} variant="outline-light" >Books📚</Button>
-                                    </Col>
-                                    <Col>
-                                        <Button value="movies" onClick={this.handleStateChange} block size="lg" style={{height: "20vh", fontFamily: 'Coustard, serif'}} variant="warning">Movies 🎥</Button>
+                                        <Button value="classes" onClick={this.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="outline-light">Classes 🧑🏿‍🏫</Button>
                                     </Col>
                                 </Row>
                                 <Row style={{marginTop: "30px"}}>
                                     <Col>
-                                        <Button value="podcasts" onClick={this.handleStateChange} block size="lg" style={{height: "20vh", fontFamily: 'Coustard, serif'}} variant="warning" >Podcasts 🎤</Button>
+                                        <Button value="books" onClick={this.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="outline-light" >Books📚</Button>
                                     </Col>
                                     <Col>
-                                        <Button value="memes" onClick={this.handleStateChange} block size="lg" style={{height: "20vh", fontFamily: 'Coustard, serif'}} variant="outline-light">Memes 👻</Button>
+                                        <Button value="movies" onClick={this.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="warning">Movies 🎥</Button>
                                     </Col>
                                 </Row>
                                 <Row style={{marginTop: "30px"}}>
                                     <Col>
-                                        <Button value="homePage" onClick={this.handleStateChange} block style={{height: "5vh", fontFamily: 'Coustard, serif'}} variant="warning" >Home</Button>
+                                        <Button value="podcasts" onClick={this.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="warning" >Podcasts 🎤</Button>
+                                    </Col>
+                                    <Col>
+                                        <Button value="memes" onClick={this.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="outline-light">Memes 👻</Button>
+                                    </Col>
+                                </Row>
+                                <Row style={{marginTop: "30px"}}>
+                                    <Col>
+                                        <Button value="homePage" onClick={this.handleStateChange} block style={{height: "5vh", fontFamily: 'Coustard, serif'}} variant="outline-light" >Home🏡</Button>
                                     </Col>
                                 </Row>
                             </Container>
