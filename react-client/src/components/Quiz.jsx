@@ -90,7 +90,7 @@ class Quiz extends React.Component {
                                 </Row>
                                 <Row style={{marginTop: "30px"}}>
                                     <Col>
-                                        <Button value="books" onClick={this.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="outline-light" >Books📚</Button>
+                                        <Button value="books" onClick={this.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="outline-light" >Books 📚</Button>
                                     </Col>
                                     <Col>
                                         <Button value="movies" onClick={this.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="warning">Movies 🎥</Button>
@@ -106,7 +106,7 @@ class Quiz extends React.Component {
                                 </Row>
                                 <Row style={{marginTop: "30px"}}>
                                     <Col>
-                                        <Button value="homePage" onClick={this.handleStateChange} block style={{height: "5vh", fontFamily: 'Coustard, serif'}} variant="outline-light" >Home🏡</Button>
+                                        <Button value="homePage" onClick={this.handleStateChange} block style={{height: "5vh", fontFamily: 'Coustard, serif'}} variant="outline-light" >Home 🏡</Button>
                                     </Col>
                                 </Row>
                             </Container>
