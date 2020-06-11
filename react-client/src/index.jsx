@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Container, Navbar, Row, Col, Card, Accordion, Badge, Button } from 'react-bootstrap';
-import MissionStatement from './components/MissionStatement.jsx';
 import Quiz from './components/Quiz.jsx';
 
 class App extends React.Component {
@@ -24,18 +23,7 @@ class App extends React.Component {
             momentum seekers
           </Navbar.Brand>
         </Navbar>
-        <Container>
-        <Row>
-          <Col>
-            <MissionStatement />
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <Quiz />
-          </Col>
-        </Row>
-        </Container>
+        <Quiz />
       </div>
     )
   }
