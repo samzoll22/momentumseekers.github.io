@@ -38,7 +38,7 @@ class Quiz extends React.Component {
                                 <h2 style={{fontFamily: 'Permanent Marker, cursive', textAlign: "center", color: "#fff"}}>How can you help?</h2>
                             </Col>
                         </Row>
-                        <Row>
+                        <Row style={{marginBottom: "40px"}}>
                             <Col>
                                 <Button value="takeAction" onClick={this.handleStateChange} block size="lg" style={{height: "18vh", fontFamily: 'Coustard, serif', fontSize: "2.5rem"}} variant="warning" >Take Action ✊🏿</Button>
                                 <Button value="learnMore" onClick={this.handleStateChange} block size="lg" style={{height: "18vh", fontFamily: 'Coustard, serif', marginTop: "30px", fontSize: "2.5rem"}} variant="outline-light">Learn More 📚</Button>

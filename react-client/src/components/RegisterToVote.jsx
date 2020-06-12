@@ -193,7 +193,7 @@ const RegisterToVote = (props) => (
                         <tr style={{textAlign:"center"}}>
                             <td style={{fontSize:"1.4rem"}} >VA</td>
                             <td><Button variant="outline-warning" href="https://vote.elections.virginia.gov/VoterInformation" >Register</Button></td>
-                            <td>⛔️ Inactive</td>
+                            <td>🟢 Active</td>
                         </tr>
                         <tr style={{textAlign:"center"}}>
                             <td style={{fontSize:"1.4rem"}} >VT</td>
