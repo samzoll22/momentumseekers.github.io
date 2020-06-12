@@ -10,7 +10,7 @@ const RegisterToVote = (props) => (
                     <thead>
                         <tr style={{textAlign:"center"}}>
                             <th>State</th>
-                            <th>URL</th>
+                            <th>Link</th>
                             <th>Status</th>
                         </tr>
                     </thead>
@@ -219,7 +219,7 @@ const RegisterToVote = (props) => (
                 </Table>
             </Col>
         </Row>
-        <Row>
+        <Row style={{marginBottom: "40px"}}>
             <Col>
                 <Button value="homePage" onClick={props.handleStateChange} block style={{height: "5vh", fontFamily: 'Coustard, serif'}} variant="outline-light" >Home 🏡</Button>
             </Col>
