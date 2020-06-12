@@ -77,7 +77,7 @@ const RegisterToVote = (props) => (
                         </tr>
                         <tr style={{textAlign:"center"}}>
                             <td style={{fontSize:"1.4rem"}} >ID</td>
-                            <td><Button disabled variant="outline-warning" href="https://apps.idahovotes.gov/OnlineVoterRegistration" >Register</Button></td>
+                            <td><Button variant="outline-warning" href="https://apps.idahovotes.gov/OnlineVoterRegistration" >Register</Button></td>
                             <td>⛔️ Inactive</td>
                         </tr>
                         <tr style={{textAlign:"center"}}>
@@ -193,7 +193,7 @@ const RegisterToVote = (props) => (
                         <tr style={{textAlign:"center"}}>
                             <td style={{fontSize:"1.4rem"}} >VA</td>
                             <td><Button variant="outline-warning" href="https://vote.elections.virginia.gov/VoterInformation" >Register</Button></td>
-                            <td>🟢 Active</td>
+                            <td>⛔️ Inactive</td>
                         </tr>
                         <tr style={{textAlign:"center"}}>
                             <td style={{fontSize:"1.4rem"}} >VT</td>
