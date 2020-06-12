@@ -83,7 +83,7 @@ class Quiz extends React.Component {
                                 </Row>
                                 <Row style={{marginTop: "30px"}}>
                                     <Col>
-                                        <Button value="language" onClick={this.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'} } variant="warning" >Racially Insensitive Language 🤬</Button>
+                                        <Button href="http://www.rsdb.org/race/blacks" block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'} } variant="warning" >Racially Insensitive Language 🤬</Button>
                                     </Col>
                                     <Col>
                                         <Button value="classes" onClick={this.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="outline-light">Classes 🧑🏿‍🏫</Button>
