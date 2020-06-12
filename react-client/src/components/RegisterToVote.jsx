@@ -27,7 +27,7 @@ const RegisterToVote = (props) => (
                         </tr>
                         <tr style={{textAlign:"center"}}>
                             <td style={{fontSize:"1.4rem"}} >AZ</td>
-                            <td><Button variant="outline-warning" href="http://servicearizona.com/voterRegistration" >Register</Button></td>
+                            <td><Button variant="outline-warning" href="https://servicearizona.com/VoterRegistration/selectLanguage" >Register</Button></td>
                             <td>🟢 Active</td>
                         </tr>
                         <tr style={{textAlign:"center"}}>
@@ -113,7 +113,7 @@ const RegisterToVote = (props) => (
                         <tr style={{textAlign:"center"}}>
                             <td style={{fontSize:"1.4rem"}} >MD</td>
                             <td><Button variant="outline-warning" href="https://voterservices.elections.maryland.gov/OnlineVoterRegistration/VoterType" >Register</Button></td>
-                            <td>🟢 Active</td>
+                            <td>🟡 Active</td>
                         </tr>
                         <tr style={{textAlign:"center"}}>
                             <td style={{fontSize:"1.4rem"}} >MI</td>
@@ -173,7 +173,7 @@ const RegisterToVote = (props) => (
                         <tr style={{textAlign:"center"}}>
                             <td style={{fontSize:"1.4rem"}} >RI</td>
                             <td><Button variant="outline-warning" href="https://vote.sos.ri.gov/ovr/register" >Register</Button></td>
-                            <td>🟢 Active</td>
+                            <td>⛔️ Inactive</td>
                         </tr>
                         <tr style={{textAlign:"center"}}>
                             <td style={{fontSize:"1.4rem"}} >SC</td>
@@ -198,7 +198,7 @@ const RegisterToVote = (props) => (
                         <tr style={{textAlign:"center"}}>
                             <td style={{fontSize:"1.4rem"}} >VT</td>
                             <td><Button variant="outline-warning" href="https://olvr.sec.state.vt.us/Registration/" >Register</Button></td>
-                            <td>🟢 Active</td>
+                            <td>⛔️ Inactive</td>
                         </tr>
                         <tr style={{textAlign:"center"}}>
                             <td style={{fontSize:"1.4rem"}} >WA</td>
