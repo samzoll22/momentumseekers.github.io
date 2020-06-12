@@ -7,8 +7,8 @@ const MissionStatement = (props) => (
         <p style={{color: "#ffffff", fontFamily: 'Coustard, serif', fontSize: "0.9rem", textAlign: "justify"}} > 
             We love the enthusiasm of info online, but found it difficult to sort through it all, so we created a site of useful information and resources on issues of racial injustice.  
         </p>
-        <p style={{textAlign: "center"}}>
-            <h2>✌🏿❤️</h2>
+        <p style={{textAlign: "center", fontSize:"2rem"}}>
+            ✌🏿❤️
         </p>
         {/* <p>
             <Button variant="outline-light" style={{fontFamily: 'Coustard, serif'}}>About Us</Button>

@@ -1,5 +1,6 @@
 import React from 'react';
 import MissionStatement from './MissionStatement.jsx';
+import RegisterToVote from './RegisterToVote.jsx';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 
 class Quiz extends React.Component {
@@ -82,7 +83,7 @@ class Quiz extends React.Component {
                                 </Row>
                                 <Row style={{marginTop: "30px"}}>
                                     <Col>
-                                        <Button value="language" onClick={this.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'} } variant="warning" >Racial Insensitive Language 🤬</Button>
+                                        <Button value="language" onClick={this.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'} } variant="warning" >Racially Insensitive Language 🤬</Button>
                                     </Col>
                                     <Col>
                                         <Button value="classes" onClick={this.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="outline-light">Classes 🧑🏿‍🏫</Button>
@@ -117,6 +118,7 @@ class Quiz extends React.Component {
             case "homePage":   return homePage;
             case "takeAction":   return takeAction;
             case "learnMore":   return learnMore;
+            case "registerToVote": return <RegisterToVote handleStateChange={this.handleStateChange} />
             default: return homePage;
             }
         }
