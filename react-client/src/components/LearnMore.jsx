@@ -18,26 +18,26 @@ const LearnMore = (props) => (
         </Row>
         <Row style={{marginTop: "30px"}}>
             <Col>
-                <Button value="classes" onClick={props.handleStateChange}  block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'} } variant="warning" >Racially Insensitive Language 🤬</Button>
+                <Button disabled value="classes" onClick={props.handleStateChange}  block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'} } variant="warning" >Racially Insensitive Language 🤬</Button>
             </Col>
             <Col>
-                <Button value="secureMessaging" onClick={props.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="outline-light">Secure Messaging 🔒</Button>
-            </Col>
-        </Row>
-        <Row style={{marginTop: "30px"}}>
-            <Col>
-                <Button value="books" onClick={props.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="outline-light" >Books 📚</Button>
-            </Col>
-            <Col>
-                <Button value="movies" onClick={props.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="warning">Movies 🎥</Button>
+                <Button disabled value="secureMessaging" onClick={props.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="outline-light">Secure Messaging 🔒</Button>
             </Col>
         </Row>
         <Row style={{marginTop: "30px"}}>
             <Col>
-                <Button value="podcasts" onClick={props.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="warning" >Podcasts 🎤</Button>
+                <Button disabled value="books" onClick={props.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="outline-light" >Books 📚</Button>
             </Col>
             <Col>
-                <Button value="memes" onClick={props.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="outline-light">Memes 👻</Button>
+                <Button disabled value="movies" onClick={props.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="warning">Movies 🎥</Button>
+            </Col>
+        </Row>
+        <Row style={{marginTop: "30px"}}>
+            <Col>
+                <Button disabled value="podcasts" onClick={props.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="warning" >Podcasts 🎤</Button>
+            </Col>
+            <Col>
+                <Button disabled value="memes" onClick={props.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="outline-light">Memes 👻</Button>
             </Col>
         </Row>
         <Row style={{marginTop: "30px"}}>
