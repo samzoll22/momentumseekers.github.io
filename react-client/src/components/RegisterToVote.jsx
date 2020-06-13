@@ -4,6 +4,11 @@ import { Table, Container, Row, Col, Button } from 'react-bootstrap';
 const RegisterToVote = (props) => (
     
     <Container>
+         <Row style={{marginTop: "30px"}}>
+            <Col>
+                <h2 style={{fontFamily: 'Permanent Marker, cursive', textAlign: "center", color: "#fff"}}>Register To Vote ✍🏿</h2>
+            </Col>
+        </Row>
         <Row>
             <Col>
                 <Table responsive style={{color: "#fff", marginTop: "20px", fontFamily: 'Coustard, serif'}}>

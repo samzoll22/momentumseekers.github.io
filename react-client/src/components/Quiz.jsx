@@ -1,6 +1,11 @@
 import React from 'react';
 import MissionStatement from './MissionStatement.jsx';
+import TakeAction from './TakeAction.jsx';
+import LearnMore from './LearnMore.jsx';
 import RegisterToVote from './RegisterToVote.jsx';
+import Petition from './Petition.jsx';
+import Volunteer from './Volunteer.jsx';
+import Donate from './Donate.jsx';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 
 class Quiz extends React.Component {
@@ -46,79 +51,16 @@ class Quiz extends React.Component {
                         </Row>
                     </Container>
 
-        const takeAction = <Container>
-                                <Row style={{marginTop: "30px"}}>
-                                    <Col>
-                                        <h2 style={{fontFamily: 'Permanent Marker, cursive', textAlign: "center", color: "#fff"}}>Take Action</h2>
-                                    </Col>
-                                </Row>
-                                <Row style={{marginTop: "30px"}}>
-                                    <Col>
-                                        <Button value="registerToVote" onClick={this.handleStateChange} block size="lg" style={{height: "20vh", fontFamily: 'Coustard, serif'} } variant="outline-light" >Register To Vote ✍🏿</Button>
-                                    </Col>
-                                    <Col>
-                                        <Button value="volunteer" onClick={this.handleStateChange} block size="lg" style={{height: "20vh", fontFamily: 'Coustard, serif'}} variant="warning">Volunteer 🙌🏿</Button>
-                                    </Col>
-                                </Row>
-                                <Row style={{marginTop: "30px"}}>
-                                    <Col>
-                                        <Button value="petition" onClick={this.handleStateChange} block size="lg" style={{height: "20vh", fontFamily: 'Coustard, serif'}} variant="warning" >Petition ✊🏿</Button>
-                                    </Col>
-                                    <Col>
-                                        <Button value="donate" onClick={this.handleStateChange} block size="lg" style={{height: "20vh", fontFamily: 'Coustard, serif'}} variant="outline-light">Donate 💸</Button>
-                                    </Col>
-                                </Row>
-                                <Row style={{marginTop: "30px"}}>
-                                    <Col>
-                                        <Button value="homePage" onClick={this.handleStateChange} block style={{height: "5vh", fontFamily: 'Coustard, serif'}} variant="outline-light" >Home 🏡</Button>
-                                    </Col>
-                                </Row>
-                            </Container>
-
-        const learnMore = <Container>
-                                <Row style={{marginTop: "30px"}}>
-                                    <Col>
-                                        <h2 style={{fontFamily: 'Permanent Marker, cursive', textAlign: "center", color: "#fff"}}>Learn More</h2>
-                                    </Col>
-                                </Row>
-                                <Row style={{marginTop: "30px"}}>
-                                    <Col>
-                                        <Button href="http://www.rsdb.org/race/blacks" block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'} } variant="warning" >Racially Insensitive Language 🤬</Button>
-                                    </Col>
-                                    <Col>
-                                        <Button value="classes" onClick={this.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="outline-light">Classes 🧑🏿‍🏫</Button>
-                                    </Col>
-                                </Row>
-                                <Row style={{marginTop: "30px"}}>
-                                    <Col>
-                                        <Button value="books" onClick={this.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="outline-light" >Books 📚</Button>
-                                    </Col>
-                                    <Col>
-                                        <Button value="movies" onClick={this.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="warning">Movies 🎥</Button>
-                                    </Col>
-                                </Row>
-                                <Row style={{marginTop: "30px"}}>
-                                    <Col>
-                                        <Button value="podcasts" onClick={this.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="warning" >Podcasts 🎤</Button>
-                                    </Col>
-                                    <Col>
-                                        <Button value="memes" onClick={this.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="outline-light">Memes 👻</Button>
-                                    </Col>
-                                </Row>
-                                <Row style={{marginTop: "30px"}}>
-                                    <Col>
-                                        <Button value="homePage" onClick={this.handleStateChange} block style={{height: "5vh", fontFamily: 'Coustard, serif'}} variant="outline-light" >Home 🏡</Button>
-                                    </Col>
-                                </Row>
-                            </Container>
-
         const quizComponent = (state) => {
             switch(this.state.currentPage) {
 
             case "homePage":   return homePage;
-            case "takeAction":   return takeAction;
-            case "learnMore":   return learnMore;
+            case "takeAction":   return <TakeAction handleStateChange={this.handleStateChange}/>;
+            case "learnMore":   return <LearnMore handleStateChange={this.handleStateChange}/>;
             case "registerToVote": return <RegisterToVote handleStateChange={this.handleStateChange} />
+            case "petition": return <Petition handleStateChange={this.handleStateChange} />
+            case "volunteer": return <Volunteer handleStateChange={this.handleStateChange} />
+            case "donate": return <Donate handleStateChange={this.handleStateChange} />
             default: return homePage;
             }
         }
