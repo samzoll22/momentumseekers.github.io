@@ -6,6 +6,8 @@ import RegisterToVote from './RegisterToVote.jsx';
 import Petition from './Petition.jsx';
 import Volunteer from './Volunteer.jsx';
 import Donate from './Donate.jsx';
+import HelpfulOrganizations from './OrgList.jsx';
+import SecureMessaging from './SecureMessaging.jsx';
 import { Navbar, Container, Row, Col, Button } from 'react-bootstrap';
 
 class Quiz extends React.Component {
@@ -43,10 +45,20 @@ class Quiz extends React.Component {
                                 <h2 style={{fontFamily: 'Permanent Marker, cursive', textAlign: "center", color: "#fff"}}>How can you help?</h2>
                             </Col>
                         </Row>
-                        <Row style={{marginBottom: "40px"}}>
+                        <Row>
                             <Col>
                                 <Button value="takeAction" onClick={this.handleStateChange} block size="lg" style={{height: "18vh", fontFamily: 'Coustard, serif', fontSize: "2.5rem"}} variant="warning" >Take Action ✊🏿</Button>
                                 <Button value="learnMore" onClick={this.handleStateChange} block size="lg" style={{height: "18vh", fontFamily: 'Coustard, serif', marginTop: "30px", fontSize: "2.5rem"}} variant="outline-light">Learn More 📚</Button>
+                            </Col>
+                        </Row>
+                        <Row style={{marginTop: "40px"}}>
+                            <Col>
+                                <p style={{fontFamily: 'Permanent Marker, cursive', textAlign: "center", color: "#fff"}}>Last Updated 6/14/20</p>
+                            </Col>
+                        </Row>
+                        <Row style={{marginBottom: "40px"}}>
+                            <Col>
+                                <p style={{fontFamily: 'Permanent Marker, cursive', textAlign: "center", color: "#fff"}}>Made with ❤️ in Chicago & NYC</p>
                             </Col>
                         </Row>
                     </Container>
@@ -61,6 +73,8 @@ class Quiz extends React.Component {
             case "petition": return <Petition handleStateChange={this.handleStateChange} />
             case "volunteer": return <Volunteer handleStateChange={this.handleStateChange} />
             case "donate": return <Donate handleStateChange={this.handleStateChange} />
+            case "secureMessaging": return <SecureMessaging handleStateChange={this.handleStateChange} />
+            case "helpfulOrganizations": return <HelpfulOrganizations handleStateChange={this.handleStateChange} />
             default: return homePage;
             }
         }

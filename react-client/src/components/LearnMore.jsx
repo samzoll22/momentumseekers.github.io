@@ -18,10 +18,10 @@ const LearnMore = (props) => (
         </Row>
         <Row style={{marginTop: "30px"}}>
             <Col>
-                <Button disabled value="classes" onClick={props.handleStateChange}  block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'} } variant="warning" >Racially Insensitive Language 🤬</Button>
+                <Button value="helpfulOrganizations" onClick={props.handleStateChange}  block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'} } variant="warning" >Orgs Taking Charge 👏🏿</Button>
             </Col>
             <Col>
-                <Button disabled value="secureMessaging" onClick={props.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="outline-light">Secure Messaging 🔒</Button>
+                <Button value="secureMessaging" onClick={props.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="outline-light">Secure Messaging 🔒</Button>
             </Col>
         </Row>
         <Row style={{marginTop: "30px"}}>
