@@ -58,7 +58,7 @@ class Quiz extends React.Component {
                         </Row>
                         <Row style={{marginBottom: "40px"}}>
                             <Col>
-                                <p style={{fontFamily: 'Permanent Marker, cursive', textAlign: "center", color: "#fff"}}>Made with ❤️ in Chicago & NYC</p>
+                                <p style={{fontFamily: 'Permanent Marker, cursive', textAlign: "center", color: "#fff"}}>Made with ❤️ in Chicago, DC & NYC</p>
                             </Col>
                         </Row>
                     </Container>
