@@ -40,7 +40,7 @@ const LearnMore = (props) => (
                 <Button disabled value="memes" onClick={props.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="outline-light">Memes 👻</Button>
             </Col>
         </Row>
-        <Row style={{marginTop: "30px"}}>
+        <Row style={{marginTop: "30px", marginBottom: "40px"}}>
             <Col>
                 <Button value="homePage" onClick={props.handleStateChange} block style={{height: "5vh", fontFamily: 'Coustard, serif'}} variant="outline-light" >Home 🏡</Button>
             </Col>

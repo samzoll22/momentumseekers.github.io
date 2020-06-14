@@ -6,7 +6,7 @@ import RegisterToVote from './RegisterToVote.jsx';
 import Petition from './Petition.jsx';
 import Volunteer from './Volunteer.jsx';
 import Donate from './Donate.jsx';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Navbar, Container, Row, Col, Button } from 'react-bootstrap';
 
 class Quiz extends React.Component {
   constructor(props) {
@@ -67,9 +67,21 @@ class Quiz extends React.Component {
 
     return (
           <div>
-              {
-                  this.state.currentPage ? quizComponent() : homePage
-              }
+            <Navbar bg="dark" variant="dark">
+                <Navbar.Brand style={{fontFamily: 'Permanent Marker, cursive', fontSize: "2em"}} value="homePage" onClick={this.handleStateChange}>
+                    <img
+                    alt="momentum seekers logo"
+                    src="https://zollstorage.s3-us-west-1.amazonaws.com/momentum+seekers/momentum+seekers+logo+%40+200px.png"
+                    width="32"
+                    height="32"
+                    />{' '}
+                    momentum seekers
+                </Navbar.Brand>
+            </Navbar>
+
+            {
+                this.state.currentPage ? quizComponent() : homePage
+            }
           </div>
     )
   }

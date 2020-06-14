@@ -177,8 +177,8 @@ const RegisterToVote = (props) => (
                         </tr>
                         <tr style={{textAlign:"center"}}>
                             <td style={{fontSize:"1.4rem"}} >RI</td>
-                            <td><Button variant="outline-warning" href="https://vote.sos.ri.gov/ovr/register" >Register</Button></td>
-                            <td>⛔️ Inactive</td>
+                            <td><Button variant="outline-warning" href="https://vote.sos.ri.gov/" >Register</Button></td>
+                            <td>🟢 Active</td>
                         </tr>
                         <tr style={{textAlign:"center"}}>
                             <td style={{fontSize:"1.4rem"}} >SC</td>
@@ -202,8 +202,8 @@ const RegisterToVote = (props) => (
                         </tr>
                         <tr style={{textAlign:"center"}}>
                             <td style={{fontSize:"1.4rem"}} >VT</td>
-                            <td><Button variant="outline-warning" href="https://olvr.sec.state.vt.us/Registration/" >Register</Button></td>
-                            <td>⛔️ Inactive</td>
+                            <td><Button variant="outline-warning" href="https://olvr.vermont.gov/" >Register</Button></td>
+                            <td>🟢 Active</td>
                         </tr>
                         <tr style={{textAlign:"center"}}>
                             <td style={{fontSize:"1.4rem"}} >WA</td>
