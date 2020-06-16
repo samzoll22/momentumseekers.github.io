@@ -10,8 +10,11 @@ const MissionStatement = (props) => (
         <h2 style={{color: "#ffffff", fontFamily: 'Permanent Marker, cursive', textAlign: "Center"}} > 
             Welcome to Momentum Seekers 
         </h2>
-        <p style={{color: "#ffffff", fontFamily: 'Coustard, serif', fontSize: "1rem", textAlign: "center"}} > 
+        {/* <p style={{color: "#ffffff", fontFamily: 'Coustard, serif', fontSize: "1rem", textAlign: "center"}} > 
             The most trusted source for movements and causes relating to racial and social injustice. 
+        </p> */}
+        <p style={{color: "#ffffff", fontFamily: 'Coustard, serif', fontSize: ".95rem", textAlign: "center"}} > 
+        We love the enthusiasm of info online, so we created a site of useful information and resources on issues of racial injustice. 
         </p>
         {/* <p style={{textAlign: "center", fontSize:"2rem"}}>
             ✌🏿❤️
