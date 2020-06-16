@@ -21,12 +21,12 @@ const LearnMore = (props) => (
                 <Button value="helpfulOrganizations" onClick={props.handleStateChange}  block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'} } variant="warning" >Orgs Taking Charge 👏🏿</Button>
             </Col>
             <Col>
-                <Button value="secureMessaging" onClick={props.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="outline-light">Secure Messaging 🔒</Button>
+                <Button value="secureMessaging" onClick={props.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="warning">Secure Messaging 🔒</Button>
             </Col>
         </Row>
         <Row style={{marginTop: "30px"}}>
             <Col>
-                <Button disabled value="books" onClick={props.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="outline-light" >Books 📚</Button>
+                <Button disabled value="books" onClick={props.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="warning" >Books 📚</Button>
             </Col>
             <Col>
                 <Button disabled value="movies" onClick={props.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="warning">Movies 🎥</Button>
@@ -37,7 +37,7 @@ const LearnMore = (props) => (
                 <Button disabled value="podcasts" onClick={props.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="warning" >Podcasts 🎤</Button>
             </Col>
             <Col>
-                <Button disabled value="memes" onClick={props.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="outline-light">Memes 👻</Button>
+                <Button disabled value="memes" onClick={props.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="warning">Memes 👻</Button>
             </Col>
         </Row>
         <Row style={{marginTop: "30px", marginBottom: "40px"}}>

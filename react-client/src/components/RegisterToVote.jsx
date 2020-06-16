@@ -118,7 +118,7 @@ const RegisterToVote = (props) => (
                         <tr style={{textAlign:"center"}}>
                             <td style={{fontSize:"1.4rem"}} >MD</td>
                             <td><Button variant="outline-warning" href="https://voterservices.elections.maryland.gov/OnlineVoterRegistration/VoterType" >Register</Button></td>
-                            <td>🟡 Active</td>
+                            <td>🟢 Active</td>
                         </tr>
                         <tr style={{textAlign:"center"}}>
                             <td style={{fontSize:"1.4rem"}} >MI</td>

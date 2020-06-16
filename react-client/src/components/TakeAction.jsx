@@ -11,7 +11,7 @@ const TakeAction = (props) => (
         </Row>
         <Row style={{marginTop: "30px"}}>
             <Col>
-                <Button value="registerToVote" onClick={props.handleStateChange} block size="lg" style={{height: "20vh", fontFamily: 'Coustard, serif'} } variant="outline-light" >Register To Vote ✍🏿</Button>
+                <Button value="registerToVote" onClick={props.handleStateChange} block size="lg" style={{height: "20vh", fontFamily: 'Coustard, serif'} } variant="warning" >Register To Vote ✍🏿</Button>
             </Col>
             <Col>
                 <Button value="volunteer" onClick={props.handleStateChange} block size="lg" style={{height: "20vh", fontFamily: 'Coustard, serif'}} variant="warning">Volunteer 🙌🏿</Button>
@@ -22,7 +22,7 @@ const TakeAction = (props) => (
                 <Button value="petition" onClick={props.handleStateChange} block size="lg" style={{height: "20vh", fontFamily: 'Coustard, serif'}} variant="warning" >Petition ✊🏿</Button>
             </Col>
             <Col>
-                <Button value="donate" onClick={props.handleStateChange} block size="lg" style={{height: "20vh", fontFamily: 'Coustard, serif'}} variant="outline-light">Donate 💸</Button>
+                <Button value="donate" onClick={props.handleStateChange} block size="lg" style={{height: "20vh", fontFamily: 'Coustard, serif'}} variant="warning">Donate 💸</Button>
             </Col>
         </Row>
         <Row style={{marginTop: "30px"}}>
