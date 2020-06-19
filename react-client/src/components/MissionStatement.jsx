@@ -8,7 +8,7 @@ const MissionStatement = (props) => (
             We love the enthusiasm of info online, but found it difficult to sort through it all, so we created a site of useful information and resources on issues of racial injustice.  
         </p> */}
         <h2 style={{color: "#ffffff", fontFamily: 'Permanent Marker, cursive', textAlign: "Center"}} > 
-            Momentum Is Essential.
+            Momentum Is Essential
         </h2>
         {/* <p style={{color: "#ffffff", fontFamily: 'Coustard, serif', fontSize: "1rem", textAlign: "center"}} > 
             The most trusted source for movements and causes relating to racial and social injustice. 
