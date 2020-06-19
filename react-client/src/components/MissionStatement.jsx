@@ -19,7 +19,7 @@ const MissionStatement = (props) => (
         {/* <p style={{textAlign: "center", fontSize:"2rem"}}>
             ✌🏿❤️
         </p> */}
-        <p style={{color: "#ffffff", fontFamily: 'Coustard, serif', fontSize: ".85rem", textAlign: "center"}}>
+        <p style={{color: "#ffc107", fontFamily: 'Coustard, serif', fontSize: ".85rem", textAlign: "center"}}>
             Repost On Your Story!
             <Button block style={{ fontFamily: 'Permanent Marker, cursive'}} variant="warning" href="https://zollstorage.s3-us-west-1.amazonaws.com/momentum+seekers/Momentum-Seekers-Story-v6-mobileDownload.png">Download Juneteeth #BLMChallenge</Button>
         </p>
