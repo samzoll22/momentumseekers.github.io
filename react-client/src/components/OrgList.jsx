@@ -1,6 +1,6 @@
 import React from 'react';
 import orgListData from '../assets/orgList.js'
-import { Table, Container, Row, Col, Button } from 'react-bootstrap';
+import { Table, Container, Row, Col, Button, Image } from 'react-bootstrap';
 
 const OrgList = (props) => (
     <Container>
