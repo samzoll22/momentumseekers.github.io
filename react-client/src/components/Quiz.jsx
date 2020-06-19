@@ -8,6 +8,7 @@ import Volunteer from './Volunteer.jsx';
 import Donate from './Donate.jsx';
 import HelpfulOrganizations from './OrgList.jsx';
 import SecureMessaging from './SecureMessaging.jsx';
+import Movies from './Movies.jsx';
 import { Navbar, Container, Row, Col, Button } from 'react-bootstrap';
 
 class Quiz extends React.Component {
@@ -70,6 +71,7 @@ class Quiz extends React.Component {
             case "donate": return <Donate handleStateChange={this.handleStateChange} />
             case "secureMessaging": return <SecureMessaging handleStateChange={this.handleStateChange} />
             case "helpfulOrganizations": return <HelpfulOrganizations handleStateChange={this.handleStateChange} />
+            case "movies": return <Movies handleStateChange={this.handleStateChange} />
             default: return homePage;
             }
         }

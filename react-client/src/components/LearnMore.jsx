@@ -29,15 +29,15 @@ const LearnMore = (props) => (
                 <Button disabled value="books" onClick={props.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="warning" >Books 📚</Button>
             </Col>
             <Col>
-                <Button disabled value="movies" onClick={props.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="warning">Movies 🎥</Button>
+                <Button value="movies" onClick={props.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="warning">Movies 🎥</Button>
             </Col>
         </Row>
         <Row style={{marginTop: "30px"}}>
             <Col>
-                <Button disabled value="podcasts" onClick={props.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="warning" >Podcasts 🎤</Button>
+                <Button value="podcasts" onClick={props.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="warning" >Podcasts 🎤</Button>
             </Col>
             <Col>
-                <Button disabled value="memes" onClick={props.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="warning">Memes 👻</Button>
+                <Button value="memes" onClick={props.handleStateChange} block size="lg" style={{height: "16vh", fontFamily: 'Coustard, serif'}} variant="warning">Memes 👻</Button>
             </Col>
         </Row>
         <Row style={{marginTop: "30px", marginBottom: "40px"}}>
